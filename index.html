@@ -97,7 +97,7 @@ gh-pages
 <h3>Welcome</h3>
 <p>
 This is the<br>
-<span style="font-weight:bold;">OS/2 Packaging Bootstrap Project</</span><br>
+<span style="font-weight:bold;">OS/2 Packaging Bootstrap Project</span><br>
 </p>
 <p></p>
 <p>
@@ -189,6 +189,32 @@ This separation also helps with developer cooperation.<br>
 Using Iterfaces and Implementations allows for flexibility<br>
 </p>
 
+<h3>Using File Commander/2 as the front-end</h3>
+<p>
+As a self respecting OS/2 Developer,<br>
+you have of course a licensed version of<br>
+<a href="http://silk.apana.org.au/fc.html">File Commander</a><br>
+</p>
+<p>
+No, not yet ?<br>
+Then consider getting one <a href="https://www.bmtmicro.com/BMTCatalog/os2/fc2.html">here</a> and<br>
+it will become your <b>Swiss Army Knife</b>,<br>
+leaving you to wonder how you<br>
+ever managed without it.<br>
+</p>
+<p>
+The <b>User Menus</b> capability<br>
+of FC/2 is used to provide a menu-driven<br>
+interface to the build-system. This is done<br>
+by mapping menu-entries to build-actions.<br>
+Such actions can be targets in a<br>
+GNU Makefile, Ant BuildFile<br>
+or other means.<br>
+</p>
+<p style="font-weight:bold;">
+This project assumes <a href="http://silk.apana.org.au/pub/fc2/fc2_240.zip">FC/2 v2.40</a> is being used<br>
+</p>
+
 <h3>Project Structure</h3>
 <p>
 After inventarisation of the problem domain has been done,<br>
@@ -197,7 +223,8 @@ These will be the first-level directories, which can be<br>
 sub-divided down-the-tree in components.<br>
 </p>
 <p style="font-weight:bold;">
-Components are directories that hold a Makefile<br>
+Things are buildable when a fc.mnu file is present<br>
+<span style="font-size:0.9em;">(press F2 from within FC/2 to show it)</span><br>
 </p>
 
 <h3>Developer Notes</h3>
