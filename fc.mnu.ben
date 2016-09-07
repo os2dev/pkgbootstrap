@@ -1,0 +1,10 @@
+#
+# fc.mnu
+#
+
+B:	Build
+	make build
+P:	Package
+	make package
+C:	Clean
+	make clean
